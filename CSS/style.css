@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Public+Sans:wght@400;500;600;700&display=swap');
+@import url(animaciones.css);
+@import url(animacionSliderProductos.css);
+.body{
+    font-size: 14px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background:white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.header-up{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+select{
+    font-weight: medium;
+    font-size: 15px;
+    width:75px;
+    position: relative;
+    top: 16px;
+    left: 58px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+#languaje{
+    width: 80px;
+    position: relative;
+    top: 16px;
+}
+
+.envio{
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 505px;
+    font-family: Public Sans;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.soporte{
+    width: 80px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 1300px;
+    font-family: Public Sans;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 48px;
+    left: 2px;
+}
+
+
+
+.itemnavbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.itemnavbar li{
+    list-style: none;
+    padding: 0 20px;
+    top: 18px;
+    left: 250px;
+
+}
+
+.itemnavbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    font-family: Inter;
+    font-weight: Regular;
+
+}
+
+.itemnavbar li a:hover{ 
+    color: green;
+}
+
+.logo{
+    width: 250px;
+    color:black;
+    position: absolute;
+    top: 18px;
+    left: 90px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.login{
+    width: 125px;
+    color: black;
+    position: absolute;
+    top: 18px;
+    left: 1350px;
+}
+
+.shop{
+    width: 35px;
+    color: black;
+    position: absolute;
+    top: 8px;
+    left: 1300px;
+}
+.buscar{
+    width: 25px;
+    color: black;
+    position: absolute;
+    top: 15px;
+    left:1250px ;
+}
+
+.containerSlider{
+    position: relative;
+    width: 100%;
+    height: 521px;
+    background: rgb(255, 255, 255);
+    top: 108px;
+    overflow: hidden;
+}
+
+.contentSlider{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.categorieInfo{
+    width: 100%;
+    height: 450px;
+}
+
+.categories{
+    width: 755px;
+    color:black;
+    position: absolute;
+    top: 711px;
+    left: 375px;
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 56px;
+    opacity: 1;
+    text-align: center;
+}
+
+.categories-descripcion{
+    width: 610px;
+    color: rgba(151,151,151,1);
+    position: absolute;
+    top: 797px;
+    left: 455px;
+    font-family: Public Sans;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.buttonShop{
+    width: 194px;
+    height: 55px;
+    font-family: Public Sans;
+    font-weight: bold;
+    left: 661px;
+    background-color: white;
+    border: 1px solid black;
+    top: 940px;
+    font-size: 20px;
+}
+hr{
+    width: 1250px;
+    height: 3px;
+    background-color: black;
+}
+
+.container-Subscripcion{
+    padding: 45px 0 0 0;
+    font-family: Public Sans;
+    font-weight: SemiBold;
+    width: 1000px;
+    margin: 5% auto;
+}
+
+.single-price{
+    width: 33%;
+    background:white;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+
+.ofertas{
+    margin-top: 10%;
+}
+
+.single-price h1{
+    font-size: 18px;
+    color: black;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+.price h2{
+    font-size: 38px;
+    color: black;
+}
+
+.ofertas h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+.single-price:hover{
+    background: green;
+    color: #fff;
+    box-shadow: 0 0 15 rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.single-price a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Subscripcion{
+    position: relative;
+    top: 45px;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    font-family: Inter;
+    color: black;
+}
+
+.descripcionSubs{
+    font-family: Public Sans;
+    position: relative;
+    top: 55px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+
+.hr-fotter{
+    position: relative;
+    top: 45px;
+    width: 1250px;
+    height: 3px;
+    background-color: black;
+}
+
+.pie-pagina{
+    width: 100%;
+    color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color:black;
+    font-family: Public Sans;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    font-family: Public Sans;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: green;
+}
+.pie-pagina .grupo-2{
+    background-color:black;
+    font-family: Public Sans;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+

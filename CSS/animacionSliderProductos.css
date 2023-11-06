@@ -1,0 +1,180 @@
+.categorie-insuagro{
+    width: 80%;
+    height: 470px;
+    background-color: black;
+}
+
+.categorie-insuagro span{
+    color: white;
+}
+
+.p-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 95%;
+}
+
+.producto-slider-heading{
+    position: relative;
+    top: 45px;
+    left: -500px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #313131;
+    text-align: center;
+    margin: 0px;
+    font-family: Inter;
+    color: black;
+}
+
+.ver{
+    position: relative;
+    left: 1280px;
+    top: 30px;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    color: black;
+}
+
+
+.producto-box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.p-img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a,.p-img{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.p-img a img{
+    width:100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    animation: fade 0.6s;
+}
+
+.p-img-atras{
+    display: none;
+}
+
+.p-img-container:hover .p-img-atras{
+    display: block;
+}
+
+.p-img-container:hover .p-img-frente{
+    display: none;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.p-box-text{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.producto-categoria{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.producto-categoria span{
+    color: #acacac;
+    font-size: 15px;
+    margin: 5px 0px;
+    font-family: Public Sans;
+}
+
+.titulo-producto{
+    color: #333333;
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+
+.titulo-producto:hover{
+    color: #111111;
+    opacity: 0.7;
+    transform: all ease 0.3s;
+}
+
+.precio-compra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.precio-compra .p-precio{
+    font-size: 1.3rem;
+    color: #333333;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.p-descuento{
+    position: relative;
+    left: 15px;
+    top: 1px;
+    width: 65px;
+    height: 24px;
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 0.7rem;
+    letter-spacing: 1px;
+    z-index: 100;
+    border-radius: 3px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+

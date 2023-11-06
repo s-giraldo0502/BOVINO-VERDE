@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Public+Sans:wght@400;500;600;700&display=swap');
+@import url(animacionSliderProductos.css);
+
+
+.main{
+    width: 100%;
+    height: 1520px;
+    background:white;
+    position: relative;
+    margin-bottom: 85px;
+    top: 0px;
+    left: 0px;
+}
+
+.header-up{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+#currency{
+    font-weight: medium;
+    font-size: 15px;
+    width: 75px;
+    position: relative;
+    top: 16px;
+    left: 58px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+#languaje{
+    width: 80px;
+    position: relative;
+    font-size: 15px;
+    top: 16px;
+    left: 65px;
+    font-weight: medium;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.envio{
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 505px;
+    font-family: Inter;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.soporte{
+    width: 80px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 1300px;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 48px;
+    left: 2px;
+}
+
+.itemnavbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.itemnavbar li{
+    list-style: none;
+    padding: 0 20px;
+    top: 18px;
+    left: 250px;
+}
+
+.itemnavbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    font-family: Inter;
+    font-weight: Regular;
+}
+
+.itemnavbar li a:hover{
+    color: green;
+}
+
+.logo{
+    width: 250px;
+    color: black;
+    position: absolute;
+    top: 18px;
+    left: 90px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.login{
+    width: 125px;
+    color: black;
+    position: absolute;
+    top: 18px;
+    left: 1350px;
+}
+
+.shop{
+    width: 35px;
+    color: black;
+    position: absolute;
+    top: 8px;
+    left: 1300px;
+}
+
+.buscar{
+    width: 25px;
+    color: black;
+    position: absolute;
+    top: 15px;
+    left: 1250px;
+}
+
+.br-header{
+    width: 98%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+}
+
+
+.containerShop{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 110px;
+    overflow-x: hidden;
+}
+
+.title{
+    color:black;
+    font-family: Public Sans;
+    position: absolute;
+    font-weight: Bold;
+    left: 155px;
+}
+
+.parrafo{
+    color: black;
+    text-align: left;
+    position: absolute;
+    font-family: Public Sans;
+    top: 48px;
+    width: 270px;
+    left: 160px;
+}
+
+.containerFiltro{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin: 10px;
+    position: absolute;
+    top: 180px;
+    left: 45px;
+}
+
+.Title-Filtro{
+    font-family: Public Sans;
+    font-weight: SemiBold;
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+}
+
+.descripcion-filtro{
+    font-weight: Public Sans;
+    font-size:15px;
+    position: absolute;
+    left: 180px;
+    text-decoration: underline;
+}
+
+.categorias{
+    font-family: Public Sans;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+.list-items{
+    position: absolute;
+    top: 75px;
+    border-radius: 8px;
+    font-family: Public Sans;
+}
+
+.list-items .item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.list-items .item:hover{
+    background-color: #e7edfe;
+}
+.item .item-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+.item .checkbox{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+.item.checked .checkbox{
+    background-color: #40f4be;
+    border-color: #40f4be;
+}
+.checkbox .check-icon{
+    color: #fff;
+    font-size: 11px;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+}
+.item.checked .check-icon{
+    transform: scale(1);
+}
+
+.itemShop{
+  width: 73%;
+  height: auto;
+  top: 190px;
+  left: 380px;
+  position: absolute;
+  display: flex;
+  margin-bottom: 85px;
+}
+
+.items{
+    display: flex;
+    position: absolute;
+    left: -10px;
+    top: 15px;
+}
+
+.items2{
+    display: flex;
+    position: absolute;
+    left: -10px;
+    top: 500px;
+}
+
+.button{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 80%;
+    justify-content: center;
+    text-align: center;
+}
+.CargarMas{
+    width: 350px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    font-family: Public Sans;
+    position: absolute;
+}
+
+.CargarMas:hover{
+    transform: scale(1.2);
+}
+
+.hr-fotter{
+    position: relative;
+    top: 99%;
+    width: 1250px;
+    height: 3px;
+    background-color: black;
+}
+
+.pie-pagina{
+    width: 100%;
+    color: black;
+    position: absolute;
+    top: 100%;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color:black;
+    font-family: Public Sans;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    font-family: Public Sans;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: green;
+}
+.pie-pagina .grupo-2{
+    background-color:black;
+    font-family: Public Sans;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
