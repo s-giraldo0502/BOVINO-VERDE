@@ -138,8 +138,7 @@ select{
     border: 2px solid rgb(0, 0, 0);
     width: 550px;
     height: 550px;
-    background-color: rgba(48, 44, 44, 0.596);
-    margin: 0px 0px 0px 0px;
+    background-color: rgb(255, 255, 255)
 }
 
 .container-images{
